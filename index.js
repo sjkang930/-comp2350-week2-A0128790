@@ -2,12 +2,14 @@ const mysql = require('mysql');
 const http = require('http');
 
 const port = process.env.PORT || 3000;
-//mysql://a0wj08yp3h60iax9:xhov21ul59ilv8e5@jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/kjm3rtal36l1mlue
+//mysql://mjbohbd6c9yp28yj:b2qyv7jj9u9czyt9@i0rgccmrx3at3wv3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/h8l1r6gugv76py60
+
+
 const dbConfig = {
-	host: "jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-	user: "a0wj08yp3h60iax9",
-	password: "xhov21ul59ilv8e5",
-	database: "kjm3rtal36l1mlue",
+	host: "i0rgccmrx3at3wv3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+	user: "mjbohbd6c9yp28yj",
+	password: "b2qyv7jj9u9czyt9",
+	database: "h8l1r6gugv76py60",
 	multipleStatements: false,
 	reconnect: true
 };
